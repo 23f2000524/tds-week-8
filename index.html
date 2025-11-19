@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q4 2025 Quarterly Earnings Report</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/black.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/monokai.min.css">
+    <style>
+        .reveal h1, .reveal h2, .reveal h3 {
+            text-transform: none;
+        }
+        .reveal .slides section {
+            text-align: left;
+        }
+        .reveal .slides section.center {
+            text-align: center;
+        }
+        .metric-card {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 10px 0;
+            border-left: 4px solid #42affa;
+        }
+        .positive { color: #4caf50; }
+        .negative { color: #f44336; }
+        .contact-info {
+            font-size: 0.8em;
+            color: #42affa;
+            margin-top: 20px;
+        }
+        .chart-placeholder {
+            background: rgba(255,255,255,0.05);
+            border: 2px dashed rgba(255,255,255,0.3);
+            padding: 60px;
+            text-align: center;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <!-- Title Slide -->
+            <section class="center" data-background-gradient="linear-gradient(to bottom, #1a1a2e, #16213e)">
+                <h1>Q4 2025 Earnings Report</h1>
+                <h3>Financial Performance & Strategic Outlook</h3>
+                <p style="margin-top: 50px;">Prepared by: Technical Consulting Team</p>
+                <p class="contact-info">23f2000524@ds.study.iitm.ac.in</p>
+                <p style="font-size: 0.7em; color: #888;">Press 'S' for speaker notes | Arrow keys to navigate</p>
+                <aside class="notes">
+                    Welcome stakeholders to our Q4 2025 earnings presentation. 
+                    This comprehensive report covers our financial performance, key metrics, 
+                    and strategic initiatives for the quarter. Take a moment to introduce yourself 
+                    and set the tone for a data-driven discussion.
+                </aside>
+            </section>
+
+            <!-- Executive Summary (Markdown) -->
+            <section data-markdown data-separator-notes="^Notes:">
+                <textarea data-template>
+                    ## Executive Summary
+                    
+                    ### Q4 2025 Highlights
+                    
+                    - **Revenue**: $2.4B (↑ 18% YoY)
+                    - **Net Income**: $420M (↑ 22% YoY)
+                    - **EPS**: $3.85 (beat estimates by $0.32)
+                    - **Customer Growth**: 2.3M new accounts
+                    
+                    ---
+                    
+                    ### Strategic Achievements
+                    
+                    * Digital transformation initiatives completed
+                    * AI-powered risk assessment deployed
+                    * New market expansion in APAC region
+                    * Sustainability goals exceeded
+                    
+                    Notes:
+                    Emphasize that we exceeded analyst expectations across all key metrics.
+                    Highlight the successful digital transformation and AI deployment.
+                    The APAC expansion is a major strategic win positioning us for 2026 growth.
+                </textarea>
+            </section>
+
+            <!-- Financial Metrics with Fragments -->
+            <section>
+                <h2>Key Financial Metrics</h2>
+                <div class="metric-card fragment fade-in">
+                    <h3>Revenue Growth</h3>
+                    <p class="positive">$2.4B (+18% YoY)</p>
+                    <p style="font-size: 0.8em;">Driven by digital banking services and wealth management</p>
+                </div>
+                <div class="metric-card fragment fade-in">
+                    <h3>Operating Margin</h3>
+                    <p class="positive">32.5% (+4.2 percentage points)</p>
+                    <p style="font-size: 0.8em;">Cost optimization and operational efficiency improvements</p>
+                </div>
+                <div class="metric-card fragment fade-in">
+                    <h3>Return on Equity (ROE)</h3>
+                    <p class="positive">16.8%</p>
+                    <p style="font-size: 0.8em;">Above industry average of 14.2%</p>
+                </div>
+                <aside class="notes">
+                    Walk through each metric as it appears. Pause after each fragment to let 
+                    stakeholders absorb the information. Be prepared to answer questions about 
+                    the drivers behind each metric. Note that our ROE significantly exceeds 
+                    industry benchmarks, demonstrating superior capital efficiency.
+                </aside>
+            </section>
+
+            <!-- Mathematical Formulas -->
+            <section>
+                <h2>Financial Calculations</h2>
+                <h3 class="fragment">Return on Equity (ROE)</h3>
+                <p class="fragment">
+                    $$ROE = \frac{Net\ Income}{Shareholders'\ Equity} \times 100$$
+                </p>
+                <p class="fragment" style="font-size: 0.9em;">
+                    $$ROE = \frac{\$420M}{\$2,500M} \times 100 = 16.8\%$$
+                </p>
+                
+                <h3 class="fragment" style="margin-top: 40px;">Compound Annual Growth Rate (CAGR)</h3>
+                <p class="fragment">
+                    $$CAGR = \left(\frac{Ending\ Value}{Beginning\ Value}\right)^{\frac{1}{n}} - 1$$
+                </p>
+                <p class="fragment" style="font-size: 0.9em;">
+                    Our 3-year revenue CAGR: <span class="positive">21.4%</span>
+                </p>
+                <aside class="notes">
+                    These formulas show how we calculate key performance indicators.
+                    The ROE calculation demonstrates our strong profitability relative to equity.
+                    Our 3-year CAGR of 21.4% shows consistent, sustainable growth well above 
+                    market expectations. Be ready to discuss how we maintain this growth rate.
+                </aside>
+            </section>
+
+            <!-- Code Sample: Risk Assessment Algorithm -->
+            <section>
+                <h2>AI Risk Assessment Implementation</h2>
+                <p>New machine learning model for credit risk evaluation:</p>
+                <pre><code class="language-python" data-trim data-line-numbers="1-3|5-8|10-14">
+import numpy as np
+from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.preprocessing import StandardScaler
+
+# Credit risk model with key financial indicators
+def assess_credit_risk(applicant_data):
+    features = ['credit_score', 'debt_to_income', 'payment_history', 
+                'account_age', 'credit_utilization']
+    
+    # Normalize features
+    scaler = StandardScaler()
+    X_normalized = scaler.fit_transform(applicant_data[features])
+    
+    # Predict risk probability
+    risk_score = model.predict_proba(X_normalized)[:, 1]
+    
+    return {
+        'risk_level': 'low' if risk_score < 0.3 else 'high',
+        'approval_recommended': risk_score < 0.3,
+        'confidence': float(1 - abs(risk_score - 0.5) * 2)
+    }
+                </code></pre>
+                <p class="fragment" style="font-size: 0.8em; margin-top: 20px;">
+                    <strong>Impact:</strong> 35% reduction in default rates | 
+                    Processing time decreased by 78%
+                </p>
+                <aside class="notes">
+                    This code demonstrates our AI-powered risk assessment system deployed in Q4.
+                    Walk through the highlighted sections: imports, feature engineering, and 
+                    prediction logic. Emphasize the 35% reduction in defaults and massive 
+                    efficiency gains. This system processes 10,000+ applications daily with 
+                    95% accuracy, significantly improving our lending operations.
+                </aside>
+            </section>
+
+            <!-- Technical Architecture -->
+            <section>
+                <h2>Digital Infrastructure Upgrade</h2>
+                <pre><code class="language-javascript" data-trim>
+// Real-time transaction processing architecture
+class TransactionProcessor {
+    constructor(config) {
+        this.kafka = new KafkaClient(config.kafka);
+        this.redis = new RedisClient(config.cache);
+        this.validator = new FraudDetectionEngine();
+    }
+    
+    async processTransaction(txn) {
+        // Multi-layer validation
+        const fraudCheck = await this.validator.analyze(txn);
+        
+        if (fraudCheck.risk > 0.85) {
+            return this.flagForReview(txn);
+        }
+        
+        // Stream to real-time analytics
+        await this.kafka.publish('transactions', txn);
+        
+        // Cache for quick retrieval
+        await this.redis.set(`txn:${txn.id}`, txn, 3600);
+        
+        return { status: 'approved', txnId: txn.id };
+    }
+}
+                </code></pre>
+                <p class="fragment" style="margin-top: 20px;">
+                    <strong>Performance:</strong> 99.99% uptime | Sub-100ms latency
+                </p>
+                <aside class="notes">
+                    Our modernized transaction processing infrastructure handles millions of 
+                    transactions daily. The system uses Kafka for streaming, Redis for caching, 
+                    and integrated fraud detection. This architecture achieved 99.99% uptime 
+                    during Q4 with average latency under 100 milliseconds, even during peak 
+                    holiday shopping periods.
+                </aside>
+            </section>
+
+            <!-- Animated Segment Performance -->
+            <section>
+                <h2>Business Segment Performance</h2>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                    <div class="metric-card fragment fade-right">
+                        <h4>Retail Banking</h4>
+                        <p class="positive">Revenue: $980M (+15%)</p>
+                        <p style="font-size: 0.8em;">Mobile app users: 8.2M (+42%)</p>
+                    </div>
+                    <div class="metric-card fragment fade-left">
+                        <h4>Corporate Banking</h4>
+                        <p class="positive">Revenue: $720M (+22%)</p>
+                        <p style="font-size: 0.8em;">New enterprise clients: 340</p>
+                    </div>
+                    <div class="metric-card fragment fade-right">
+                        <h4>Wealth Management</h4>
+                        <p class="positive">Revenue: $450M (+25%)</p>
+                        <p style="font-size: 0.8em;">AUM: $45B (+18%)</p>
+                    </div>
+                    <div class="metric-card fragment fade-left">
+                        <h4>Investment Banking</h4>
+                        <p class="positive">Revenue: $250M (+8%)</p>
+                        <p style="font-size: 0.8em;">Deal volume: $12.3B</p>
+                    </div>
+                </div>
+                <aside class="notes">
+                    All segments showed growth, with wealth management leading at 25% YoY.
+                    The 42% increase in mobile app users reflects our digital-first strategy.
+                    Corporate banking's 340 new enterprise clients represents significant 
+                    market share gains. Investment banking growth was modest but stable 
+                    given market headwinds.
+                </aside>
+            </section>
+
+            <!-- Risk Management -->
+            <section>
+                <h2>Risk Metrics & Capital Position</h2>
+                <div class="fragment">
+                    <h3>Capital Adequacy</h3>
+                    <p>
+                        $$Capital\ Adequacy\ Ratio = \frac{Tier\ 1\ +\ Tier\ 2\ Capital}{Risk\ Weighted\ Assets}$$
+                    </p>
+                    <p class="positive" style="font-size: 1.2em;">CAR: 14.8% (vs. 10.5% regulatory minimum)</p>
+                </div>
+                <div class="fragment" style="margin-top: 30px;">
+                    <h3>Asset Quality</h3>
+                    <ul>
+                        <li>Non-Performing Loans (NPL) Ratio: <span class="positive">1.2%</span> (↓ 0.3%)</li>
+                        <li>Loan Loss Coverage: <span class="positive">175%</span></li>
+                        <li>Net Charge-off Rate: <span class="positive">0.8%</span></li>
+                    </ul>
+                </div>
+                <aside class="notes">
+                    Our capital position remains very strong at 14.8%, well above regulatory 
+                    requirements, giving us flexibility for growth and dividends. NPL ratio 
+                    improved to 1.2%, reflecting better underwriting and economic conditions.
+                    The 175% loan loss coverage provides a robust buffer against potential 
+                    credit losses. These metrics demonstrate prudent risk management.
+                </aside>
+            </section>
+
+            <!-- Technology Stack -->
+            <section>
+                <h2>Technology Investments</h2>
+                <pre><code class="language-sql" data-trim data-line-numbers>
+-- Real-time fraud detection query (optimized)
+WITH recent_transactions AS (
+    SELECT 
+        user_id,
+        transaction_amount,
+        merchant_category,
+        transaction_time,
+        LAG(transaction_time) OVER (
+            PARTITION BY user_id 
+            ORDER BY transaction_time
+        ) AS prev_transaction_time
+    FROM transactions
+    WHERE transaction_time >= NOW() - INTERVAL '24 hours'
+)
+SELECT 
+    user_id,
+    COUNT(*) as txn_count,
+    SUM(transaction_amount) as total_amount,
+    EXTRACT(EPOCH FROM (MAX(transaction_time) - MIN(transaction_time))) / 60 
+        AS time_span_minutes
+FROM recent_transactions
+GROUP BY user_id
+HAVING COUNT(*) > 10 
+    AND EXTRACT(EPOCH FROM (MAX(transaction_time) - MIN(transaction_time))) / 60 < 30
+ORDER BY total_amount DESC;
+                </code></pre>
+                <p class="fragment" style="font-size: 0.8em; margin-top: 15px;">
+                    Fraud detection accuracy: <span class="positive">96.3%</span> | 
+                    False positives reduced by: <span class="positive">45%</span>
+                </p>
+                <aside class="notes">
+                    This SQL query is part of our real-time fraud detection system, identifying 
+                    suspicious patterns like multiple high-value transactions in short timeframes.
+                    Our improved algorithms achieved 96.3% accuracy while reducing false positives 
+                    by 45%, improving customer experience and operational efficiency.
+                </aside>
+            </section>
+
+            <!-- 2026 Outlook -->
+            <section>
+                <h2>2026 Strategic Priorities</h2>
+                <ol>
+                    <li class="fragment fade-in-then-semi-out">
+                        <strong>AI & Automation:</strong> Expand machine learning models across 
+                        all business units
+                    </li>
+                    <li class="fragment fade-in-then-semi-out">
+                        <strong>Geographic Expansion:</strong> Launch operations in 3 new APAC markets
+                    </li>
+                    <li class="fragment fade-in-then-semi-out">
+                        <strong>Sustainable Finance:</strong> $500M green investment portfolio
+                    </li>
+                    <li class="fragment fade-in-then-semi-out">
+                        <strong>Digital Products:</strong> Launch embedded finance APIs for partners
+                    </li>
+                    <li class="fragment fade-in">
+                        <strong>Cybersecurity:</strong> Zero-trust architecture implementation
+                    </li>
+                </ol>
+                <div class="fragment" style="margin-top: 40px; padding: 20px; background: rgba(66,175,250,0.1); border-radius: 10px;">
+                    <h3>2026 Guidance</h3>
+                    <p>Revenue: <span class="positive">$10.2B - $10.5B</span> (15-18% growth)</p>
+                    <p>EPS: <span class="positive">$16.20 - $16.80</span></p>
+                </div>
+                <aside class="notes">
+                    Our 2026 strategy focuses on five key areas. AI expansion will drive 
+                    efficiency and new capabilities. APAC expansion targets high-growth markets.
+                    Sustainable finance aligns with ESG commitments and investor demand.
+                    Embedded finance APIs will create new revenue streams through partnerships.
+                    Cybersecurity remains critical given increasing threats. Our guidance 
+                    reflects confidence in sustained double-digit growth.
+                </aside>
+            </section>
+
+            <!-- Closing Slide -->
+            <section class="center" data-background-gradient="linear-gradient(to bottom, #16213e, #1a1a2e)">
+                <h1>Thank You</h1>
+                <h3>Questions & Discussion</h3>
+                <div style="margin-top: 60px;">
+                    <p><strong>Technical Consulting Team</strong></p>
+                    <p class="contact-info">23f2000524@ds.study.iitm.ac.in</p>
+                    <p style="font-size: 0.8em; margin-top: 40px; color: #888;">
+                        Investor Relations: ir@financialcorp.com<br>
+                        Next Earnings Call: March 15, 2026
+                    </p>
+                </div>
+                <aside class="notes">
+                    Open the floor for questions. Be prepared to dive deeper into any metrics,
+                    initiatives, or strategic decisions. Common questions might include: details 
+                    on APAC expansion timeline, AI implementation roadmap, capital allocation 
+                    plans, and competitive positioning. Thank stakeholders for their time and 
+                    continued support.
+                </aside>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/markdown/markdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/highlight/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/notes/notes.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/math/math.min.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            slideNumber: true,
+            transition: 'slide',
+            backgroundTransition: 'fade',
+            plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX],
+            math: {
+                mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.min.js',
+                config: 'TeX-AMS_HTML-full'
+            }
+        });
+    </script>
+</body>
+</html>
