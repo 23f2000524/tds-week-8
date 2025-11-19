@@ -4,10 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Q4 2025 Quarterly Earnings Report</title>
+    
+    <!-- RevealJS Core CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reset.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/black.min.css">
+    
+    <!-- Syntax Highlighting CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/monokai.min.css">
+    
+    <!-- Custom Styles -->
     <style>
         .reveal h1, .reveal h2, .reveal h3 {
             text-transform: none;
@@ -25,34 +31,36 @@
             margin: 10px 0;
             border-left: 4px solid #42affa;
         }
-        .positive { color: #4caf50; }
-        .negative { color: #f44336; }
+        .positive { 
+            color: #4caf50; 
+        }
+        .negative { 
+            color: #f44336; 
+        }
         .contact-info {
             font-size: 0.8em;
             color: #42affa;
             margin-top: 20px;
-        }
-        .chart-placeholder {
-            background: rgba(255,255,255,0.05);
-            border: 2px dashed rgba(255,255,255,0.3);
-            padding: 60px;
-            text-align: center;
-            border-radius: 10px;
-            margin: 20px 0;
         }
     </style>
 </head>
 <body>
     <div class="reveal">
         <div class="slides">
-            <!-- Title Slide -->
+            
+            <!-- SLIDE 1: TITLE SLIDE -->
+            <!-- Email is displayed on this slide -->
             <section class="center" data-background-gradient="linear-gradient(to bottom, #1a1a2e, #16213e)">
                 <h1>Q4 2025 Earnings Report</h1>
                 <h3>Financial Performance & Strategic Outlook</h3>
                 <p style="margin-top: 50px;">Prepared by: Technical Consulting Team</p>
-                <p class="contact-info"> 23f2000524@ds.study.iitm.ac.in </p>
-                23f2000524@ds.study.iitm.ac.in
+                
+                <!-- EMAIL ADDRESS AS REQUESTED -->
+                <p class="contact-info">23f2000524@ds.study.iitm.ac.in</p>
+                
                 <p style="font-size: 0.7em; color: #888;">Press 'S' for speaker notes | Arrow keys to navigate</p>
+                
+                <!-- SPEAKER NOTES -->
                 <aside class="notes">
                     Welcome stakeholders to our Q4 2025 earnings presentation. 
                     This comprehensive report covers our financial performance, key metrics, 
@@ -61,7 +69,8 @@
                 </aside>
             </section>
 
-            <!-- Executive Summary (Markdown) -->
+            <!-- SLIDE 2: MARKDOWN SLIDE -->
+            <!-- This entire slide is written in Markdown format using data-markdown -->
             <section data-markdown data-separator-notes="^Notes:">
                 <textarea data-template>
                     ## Executive Summary
@@ -89,24 +98,33 @@
                 </textarea>
             </section>
 
-            <!-- Financial Metrics with Fragments -->
+            <!-- SLIDE 3: ANIMATED ELEMENTS WITH FRAGMENTS -->
+            <!-- Each metric-card div uses fragment animation -->
             <section>
                 <h2>Key Financial Metrics</h2>
+                
+                <!-- FRAGMENT 1: fade-in animation -->
                 <div class="metric-card fragment fade-in">
                     <h3>Revenue Growth</h3>
                     <p class="positive">$2.4B (+18% YoY)</p>
                     <p style="font-size: 0.8em;">Driven by digital banking services and wealth management</p>
                 </div>
+                
+                <!-- FRAGMENT 2: fade-in animation -->
                 <div class="metric-card fragment fade-in">
                     <h3>Operating Margin</h3>
                     <p class="positive">32.5% (+4.2 percentage points)</p>
                     <p style="font-size: 0.8em;">Cost optimization and operational efficiency improvements</p>
                 </div>
+                
+                <!-- FRAGMENT 3: fade-in animation -->
                 <div class="metric-card fragment fade-in">
                     <h3>Return on Equity (ROE)</h3>
                     <p class="positive">16.8%</p>
                     <p style="font-size: 0.8em;">Above industry average of 14.2%</p>
                 </div>
+                
+                <!-- SPEAKER NOTES -->
                 <aside class="notes">
                     Walk through each metric as it appears. Pause after each fragment to let 
                     stakeholders absorb the information. Be prepared to answer questions about 
@@ -115,9 +133,12 @@
                 </aside>
             </section>
 
-            <!-- Mathematical Formulas -->
+            <!-- SLIDE 4: MATHEMATICAL EQUATIONS -->
+            <!-- Uses KaTeX for rendering mathematical formulas -->
             <section>
                 <h2>Financial Calculations</h2>
+                
+                <!-- MATHEMATICAL FORMULA 1: Return on Equity -->
                 <h3 class="fragment">Return on Equity (ROE)</h3>
                 <p class="fragment">
                     $$ROE = \frac{Net\ Income}{Shareholders'\ Equity} \times 100$$
@@ -126,6 +147,7 @@
                     $$ROE = \frac{\$420M}{\$2,500M} \times 100 = 16.8\%$$
                 </p>
                 
+                <!-- MATHEMATICAL FORMULA 2: Compound Annual Growth Rate -->
                 <h3 class="fragment" style="margin-top: 40px;">Compound Annual Growth Rate (CAGR)</h3>
                 <p class="fragment">
                     $$CAGR = \left(\frac{Ending\ Value}{Beginning\ Value}\right)^{\frac{1}{n}} - 1$$
@@ -133,6 +155,8 @@
                 <p class="fragment" style="font-size: 0.9em;">
                     Our 3-year revenue CAGR: <span class="positive">21.4%</span>
                 </p>
+                
+                <!-- SPEAKER NOTES -->
                 <aside class="notes">
                     These formulas show how we calculate key performance indicators.
                     The ROE calculation demonstrates our strong profitability relative to equity.
@@ -141,10 +165,14 @@
                 </aside>
             </section>
 
-            <!-- Code Sample: Risk Assessment Algorithm -->
+            <!-- SLIDE 5: CODE SAMPLE WITH SYNTAX HIGHLIGHTING - PYTHON -->
             <section>
                 <h2>AI Risk Assessment Implementation</h2>
                 <p>New machine learning model for credit risk evaluation:</p>
+                
+                <!-- PYTHON CODE WITH SYNTAX HIGHLIGHTING -->
+                <!-- language="python" enables Python syntax highlighting -->
+                <!-- data-line-numbers enables line-by-line highlighting -->
                 <pre><code class="language-python" data-trim data-line-numbers="1-3|5-8|10-14">
 import numpy as np
 from sklearn.ensemble import GradientBoostingClassifier
@@ -168,10 +196,13 @@ def assess_credit_risk(applicant_data):
         'confidence': float(1 - abs(risk_score - 0.5) * 2)
     }
                 </code></pre>
+                
                 <p class="fragment" style="font-size: 0.8em; margin-top: 20px;">
                     <strong>Impact:</strong> 35% reduction in default rates | 
                     Processing time decreased by 78%
                 </p>
+                
+                <!-- SPEAKER NOTES -->
                 <aside class="notes">
                     This code demonstrates our AI-powered risk assessment system deployed in Q4.
                     Walk through the highlighted sections: imports, feature engineering, and 
@@ -181,9 +212,12 @@ def assess_credit_risk(applicant_data):
                 </aside>
             </section>
 
-            <!-- Technical Architecture -->
+            <!-- SLIDE 6: CODE SAMPLE WITH SYNTAX HIGHLIGHTING - JAVASCRIPT -->
             <section>
                 <h2>Digital Infrastructure Upgrade</h2>
+                
+                <!-- JAVASCRIPT CODE WITH SYNTAX HIGHLIGHTING -->
+                <!-- language="javascript" enables JavaScript syntax highlighting -->
                 <pre><code class="language-javascript" data-trim>
 // Real-time transaction processing architecture
 class TransactionProcessor {
@@ -211,9 +245,12 @@ class TransactionProcessor {
     }
 }
                 </code></pre>
+                
                 <p class="fragment" style="margin-top: 20px;">
                     <strong>Performance:</strong> 99.99% uptime | Sub-100ms latency
                 </p>
+                
+                <!-- SPEAKER NOTES -->
                 <aside class="notes">
                     Our modernized transaction processing infrastructure handles millions of 
                     transactions daily. The system uses Kafka for streaming, Redis for caching, 
@@ -223,31 +260,41 @@ class TransactionProcessor {
                 </aside>
             </section>
 
-            <!-- Animated Segment Performance -->
+            <!-- SLIDE 7: MORE ANIMATED FRAGMENTS -->
             <section>
                 <h2>Business Segment Performance</h2>
                 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                    
+                    <!-- FRAGMENT with fade-right animation -->
                     <div class="metric-card fragment fade-right">
                         <h4>Retail Banking</h4>
                         <p class="positive">Revenue: $980M (+15%)</p>
                         <p style="font-size: 0.8em;">Mobile app users: 8.2M (+42%)</p>
                     </div>
+                    
+                    <!-- FRAGMENT with fade-left animation -->
                     <div class="metric-card fragment fade-left">
                         <h4>Corporate Banking</h4>
                         <p class="positive">Revenue: $720M (+22%)</p>
                         <p style="font-size: 0.8em;">New enterprise clients: 340</p>
                     </div>
+                    
+                    <!-- FRAGMENT with fade-right animation -->
                     <div class="metric-card fragment fade-right">
                         <h4>Wealth Management</h4>
                         <p class="positive">Revenue: $450M (+25%)</p>
                         <p style="font-size: 0.8em;">AUM: $45B (+18%)</p>
                     </div>
+                    
+                    <!-- FRAGMENT with fade-left animation -->
                     <div class="metric-card fragment fade-left">
                         <h4>Investment Banking</h4>
                         <p class="positive">Revenue: $250M (+8%)</p>
                         <p style="font-size: 0.8em;">Deal volume: $12.3B</p>
                     </div>
                 </div>
+                
+                <!-- SPEAKER NOTES -->
                 <aside class="notes">
                     All segments showed growth, with wealth management leading at 25% YoY.
                     The 42% increase in mobile app users reflects our digital-first strategy.
@@ -257,16 +304,20 @@ class TransactionProcessor {
                 </aside>
             </section>
 
-            <!-- Risk Management -->
+            <!-- SLIDE 8: MORE MATHEMATICAL EQUATIONS -->
             <section>
                 <h2>Risk Metrics & Capital Position</h2>
+                
                 <div class="fragment">
                     <h3>Capital Adequacy</h3>
+                    
+                    <!-- MATHEMATICAL FORMULA 3: Capital Adequacy Ratio -->
                     <p>
                         $$Capital\ Adequacy\ Ratio = \frac{Tier\ 1\ +\ Tier\ 2\ Capital}{Risk\ Weighted\ Assets}$$
                     </p>
                     <p class="positive" style="font-size: 1.2em;">CAR: 14.8% (vs. 10.5% regulatory minimum)</p>
                 </div>
+                
                 <div class="fragment" style="margin-top: 30px;">
                     <h3>Asset Quality</h3>
                     <ul>
@@ -275,6 +326,8 @@ class TransactionProcessor {
                         <li>Net Charge-off Rate: <span class="positive">0.8%</span></li>
                     </ul>
                 </div>
+                
+                <!-- SPEAKER NOTES -->
                 <aside class="notes">
                     Our capital position remains very strong at 14.8%, well above regulatory 
                     requirements, giving us flexibility for growth and dividends. NPL ratio 
@@ -284,9 +337,12 @@ class TransactionProcessor {
                 </aside>
             </section>
 
-            <!-- Technology Stack -->
+            <!-- SLIDE 9: CODE SAMPLE WITH SYNTAX HIGHLIGHTING - SQL -->
             <section>
                 <h2>Technology Investments</h2>
+                
+                <!-- SQL CODE WITH SYNTAX HIGHLIGHTING -->
+                <!-- language="sql" enables SQL syntax highlighting -->
                 <pre><code class="language-sql" data-trim data-line-numbers>
 -- Real-time fraud detection query (optimized)
 WITH recent_transactions AS (
@@ -314,10 +370,13 @@ HAVING COUNT(*) > 10
     AND EXTRACT(EPOCH FROM (MAX(transaction_time) - MIN(transaction_time))) / 60 < 30
 ORDER BY total_amount DESC;
                 </code></pre>
+                
                 <p class="fragment" style="font-size: 0.8em; margin-top: 15px;">
                     Fraud detection accuracy: <span class="positive">96.3%</span> | 
                     False positives reduced by: <span class="positive">45%</span>
                 </p>
+                
+                <!-- SPEAKER NOTES -->
                 <aside class="notes">
                     This SQL query is part of our real-time fraud detection system, identifying 
                     suspicious patterns like multiple high-value transactions in short timeframes.
@@ -326,32 +385,44 @@ ORDER BY total_amount DESC;
                 </aside>
             </section>
 
-            <!-- 2026 Outlook -->
+            <!-- SLIDE 10: MORE FRAGMENTS -->
             <section>
                 <h2>2026 Strategic Priorities</h2>
                 <ol>
+                    <!-- FRAGMENT with fade-in-then-semi-out animation -->
                     <li class="fragment fade-in-then-semi-out">
                         <strong>AI & Automation:</strong> Expand machine learning models across 
                         all business units
                     </li>
+                    
+                    <!-- FRAGMENT with fade-in-then-semi-out animation -->
                     <li class="fragment fade-in-then-semi-out">
                         <strong>Geographic Expansion:</strong> Launch operations in 3 new APAC markets
                     </li>
+                    
+                    <!-- FRAGMENT with fade-in-then-semi-out animation -->
                     <li class="fragment fade-in-then-semi-out">
                         <strong>Sustainable Finance:</strong> $500M green investment portfolio
                     </li>
+                    
+                    <!-- FRAGMENT with fade-in-then-semi-out animation -->
                     <li class="fragment fade-in-then-semi-out">
                         <strong>Digital Products:</strong> Launch embedded finance APIs for partners
                     </li>
+                    
+                    <!-- FRAGMENT with fade-in animation -->
                     <li class="fragment fade-in">
                         <strong>Cybersecurity:</strong> Zero-trust architecture implementation
                     </li>
                 </ol>
+                
                 <div class="fragment" style="margin-top: 40px; padding: 20px; background: rgba(66,175,250,0.1); border-radius: 10px;">
                     <h3>2026 Guidance</h3>
                     <p>Revenue: <span class="positive">$10.2B - $10.5B</span> (15-18% growth)</p>
                     <p>EPS: <span class="positive">$16.20 - $16.80</span></p>
                 </div>
+                
+                <!-- SPEAKER NOTES -->
                 <aside class="notes">
                     Our 2026 strategy focuses on five key areas. AI expansion will drive 
                     efficiency and new capabilities. APAC expansion targets high-growth markets.
@@ -362,18 +433,24 @@ ORDER BY total_amount DESC;
                 </aside>
             </section>
 
-            <!-- Closing Slide -->
+            <!-- SLIDE 11: CLOSING SLIDE -->
+            <!-- Email is displayed on this slide as well -->
             <section class="center" data-background-gradient="linear-gradient(to bottom, #16213e, #1a1a2e)">
                 <h1>Thank You</h1>
                 <h3>Questions & Discussion</h3>
                 <div style="margin-top: 60px;">
                     <p><strong>Technical Consulting Team</strong></p>
+                    
+                    <!-- EMAIL ADDRESS AS REQUESTED -->
                     <p class="contact-info">23f2000524@ds.study.iitm.ac.in</p>
+                    
                     <p style="font-size: 0.8em; margin-top: 40px; color: #888;">
                         Investor Relations: ir@financialcorp.com<br>
                         Next Earnings Call: March 15, 2026
                     </p>
                 </div>
+                
+                <!-- SPEAKER NOTES -->
                 <aside class="notes">
                     Open the floor for questions. Be prepared to dive deeper into any metrics,
                     initiatives, or strategic decisions. Common questions might include: details 
@@ -382,21 +459,36 @@ ORDER BY total_amount DESC;
                     continued support.
                 </aside>
             </section>
+            
         </div>
     </div>
 
+    <!-- RevealJS Core JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.js"></script>
+    
+    <!-- RevealJS Plugins -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/markdown/markdown.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/highlight/highlight.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/notes/notes.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/math/math.min.js"></script>
+    
+    <!-- Initialize RevealJS -->
     <script>
         Reveal.initialize({
             hash: true,
             slideNumber: true,
             transition: 'slide',
             backgroundTransition: 'fade',
-            plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX],
+            
+            // Enable all required plugins
+            plugins: [
+                RevealMarkdown,    // For Markdown slides
+                RevealHighlight,   // For code syntax highlighting
+                RevealNotes,       // For speaker notes
+                RevealMath.KaTeX   // For mathematical equations
+            ],
+            
+            // Math plugin configuration
             math: {
                 mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.min.js',
                 config: 'TeX-AMS_HTML-full'
